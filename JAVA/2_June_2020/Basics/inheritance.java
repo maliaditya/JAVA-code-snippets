@@ -1,4 +1,4 @@
-//Remember a class always extends object class automatically if it does not have any other parent class
+//Remember a class always extends object class automatically if it does not have any parent class
 // -> jyacha koni nasto tyacha DEV asto java cha DEV == class Object{....
         //                                                            Object(){
         //                                                               return              
@@ -8,7 +8,7 @@
 
 class Modi {
 
-     //Instance variable only declared here memory will be allocated in constructor when called on object creation
+     //only declared here memory will be allocated in constructor when called on object creation
     String speech = "Mitro ....";                 
 
     Modi(){                                   

@@ -1,9 +1,13 @@
 //using name conventions in java while writing java program
 //knowing Diffrence Between identifiers and Keyword
 
+//import java.lang.*;
+class MachineLearning{  //extends object
+    
+    //constructor 
+        //invoke special
 
-class MachineLearning{
-
+    
     static void learnPython(){
 
         System.out.println("1)Python:            Learning Python by Mark Lutz");

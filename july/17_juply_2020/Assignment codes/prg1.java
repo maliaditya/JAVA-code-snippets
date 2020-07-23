@@ -10,6 +10,9 @@ class Dominos{
     static int total = 0;
 
     static void bill(int price,int quantity){
+        System.out.println("Price = " + price);
+        System.out.println("Quantity = " + quantity);
+        System.out.println();
         
         total = total + price * quantity;
         
@@ -21,11 +24,12 @@ class Dominos{
         Dominos pizza = new Dominos();
         Dominos fries = new Dominos();
 
+        System.out.println("Pizza");
         pizza.price = 249;
         pizza.quantity = 2;
         Dominos.bill(pizza.price,pizza.quantity);
 
-
+        System.out.println("Fries");
         fries.price = 100;
         fries.quantity = 2;
         Dominos.bill(fries.price,fries.quantity);

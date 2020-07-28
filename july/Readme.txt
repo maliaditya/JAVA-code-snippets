@@ -1,2 +1,4 @@
-17 JUlY to 21 July  OPERATORS Arithmetic, Logical, Bitwise
+17 JUlY to 22 July  OPERATORS Arithmetic, Logical, Bitwise , ternary
+
+23 JULY to          IF Else
 

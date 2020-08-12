@@ -1,24 +1,24 @@
 /*
-Pattern24
-         *
-       * *
-     * * *
-   * * * * 
- * * * * *
+Pattern65
+     1
+    2 2
+   3 3 3
+  4 4 4 4
+ 5 5 5 5 5
 */
 
-class Pattern24{
+class Pattern65{
 
     public static void main(String[] args) {
         
         int j,count=1;
 
-        for(int i=5;i>0;i--){
+        for(int i=1;i<=5;i++){
             for (j=5;j>0;j--){
                 if (j>count){
-                System.out.print("  ");
+                System.out.print(" ");
                 }else{
-                System.out.print("* ");
+                System.out.print(i+" ");
                 }
 
             }

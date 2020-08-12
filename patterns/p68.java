@@ -1,28 +1,29 @@
 /*
-Pattern24
-         *
-       * *
-     * * *
-   * * * * 
- * * * * *
+Pattern68
+     A
+    A B
+   A B C
+  A B C D
+ A B C D E
 */
 
-class Pattern24{
+class Pattern28{
 
     public static void main(String[] args) {
         
-        int j,count=1;
+        int j,count=1, p=65;
 
-        for(int i=5;i>0;i--){
+        for(int i=1;i<=5;i++){
             for (j=5;j>0;j--){
                 if (j>count){
-                System.out.print("  ");
+                System.out.print(" ");
                 }else{
-                System.out.print("* ");
+                System.out.print((char)(p)+" ");
+                p++;
                 }
 
             }
-
+            p=65;
             count++;
         
         System.out.println();

@@ -1,18 +1,18 @@
 /*
-Pattern77
-      1
-     1 2
-    1 2 3
-   1 2 3 4
-  1 2 3 4 5
-   2 3 4 5
-    3 4 5
-     4 5
-      5
+Pattern78
+       1
+      1 2
+     1 2 3
+    1 2 3 4
+   1 2 3 4 5
+    1 2 3 4
+     1 2 3
+      1 2
+       1
  */
 
 
-class Pattern77{
+class Pattern78{
 
 
     public static void main(String[] args) {
@@ -48,10 +48,11 @@ class Pattern77{
 
                 } else {
 
-                    System.out.print(j+" ");
-
+                    System.out.print(p+" ");
+                    p++;
                 }
             }
+            p=1;
             System.out.println();
 
 

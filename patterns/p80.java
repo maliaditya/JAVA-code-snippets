@@ -1,18 +1,18 @@
 /*
-Pattern77
-      1
-     1 2
-    1 2 3
-   1 2 3 4
-  1 2 3 4 5
-   2 3 4 5
-    3 4 5
-     4 5
-      5
+Pattern80
+      A
+     A B
+    A B C
+   A B C D
+  A B C D E
+   B C D E
+    C D E
+     D E
+      E
  */
 
 
-class Pattern77{
+class Pattern80{
 
 
     public static void main(String[] args) {
@@ -30,7 +30,7 @@ class Pattern77{
 
                 } else{
 
-                System.out.print(p+" ");
+                System.out.print((char)(64+p)+" ");
                 p++;
                 }
             }
@@ -48,7 +48,7 @@ class Pattern77{
 
                 } else {
 
-                    System.out.print(j+" ");
+                    System.out.print((char)(64+j)+" ");
 
                 }
             }

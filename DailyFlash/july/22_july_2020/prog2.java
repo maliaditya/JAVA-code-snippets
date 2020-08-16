@@ -9,7 +9,7 @@ class Instagram{
     }
 
     void closeFriends(){
-        System.out.println("Instance Method")
+        System.out.println("Instance Method");
     }
 
   

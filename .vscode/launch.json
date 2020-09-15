@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Pattern",
+            "request": "launch",
+            "mainClass": "Pattern",
+            "projectName": "JAVA-code-snippets_709b04ea"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - OddNos",
+            "request": "launch",
+            "mainClass": "OddNos",
+            "projectName": "JAVA-code-snippets_709b04ea"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - IfElseLadder",
             "request": "launch",
             "mainClass": "IfElseLadder",
